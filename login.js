@@ -1,3 +1,15 @@
+// Handle splash screen visibility
+window.addEventListener("load", () => {
+    const splash = document.getElementById("splashScreen");
+    const loginForm = document.getElementById("loginForm");
+
+    // Show splash screen for 3 seconds, then display the login form
+    setTimeout(() => {
+        splash.style.display = "none";
+        loginForm.style.display = "block";
+    }, 3000);
+});
+
 // Handle login functionality
 document.getElementById("loginForm").addEventListener("submit", async function (e) {
     e.preventDefault(); // Prevent default form submission

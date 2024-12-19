@@ -1,24 +1,28 @@
- /* General styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f7fa;
-    color: #333;
+    color: #095e13;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
+    background: url('images/hand.jpg') no-repeat center center fixed; /* background image */
+    background-size: cover; /* Ensures the image covers the entire background */
 }
 
 /* Login container */
 form {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
     box-sizing: border-box;
+    display: none; /* Initially hidden for splash screen */
 }
 
 /* Form title */
