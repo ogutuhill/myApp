@@ -1,0 +1,39 @@
+{
+    "users": [
+            {
+                "username": "admin",
+                "password": "admin"
+            },
+            {
+                "username": "bme ogutu",
+                "password": "4alloffus"
+            }
+        ],
+    "exerciseSuggestions": [
+        {
+            "name": "Morning stretching",
+            "duration": "10 minutes",
+            "type": "Flexibility",
+            "videoLink": "https://youtu.be/bQa6VKPoyFw?si=ohgkAsP2uf7Ryaf1",
+            "image": "images/body stretch.jpeg"
+        },
+        {
+            "name": "Chair yoga",
+            "duration": "15 minutes",
+            "type": "Relaxation",
+            "videoLink": "https://youtu.be/IKW8X0-2Eww?si=D4rwqK4yDLobBScP",
+            "image": "images/chair yoga.jpeg"
+        },
+        {
+            "name": "Gentle walking",
+            "duration": "20 minutes",
+            "type": "Cardio",
+            "image": "images/gentle walking.jpeg"
+        },
+        {
+            "name": "Seated leg lifts",
+            "duration": "5 minutes",
+            "type": "Strength",
+            "image": "images/leg lifts.jpeg"}
+    ]
+}
