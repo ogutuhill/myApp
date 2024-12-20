@@ -39,3 +39,6 @@ Add medications and set reminders in the "Medication" section.
 Manage appointments and view the calendar in the "Appointments" section.
 Explore gentle exercise routines in the "Exercises" section.
 Mark tasks as completed and stay on top of your health!
+
+# Hosted in github
+https://ogutuhill.github.io/myApp/
